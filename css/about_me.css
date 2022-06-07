@@ -1,0 +1,51 @@
+#wrap {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#subNav > ul > li:nth-of-type(1) > a {
+  border-bottom: 2px solid blue;
+}
+
+.intro-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.intro-area {
+  height: 130px;
+  width: 500px;
+  margin: 30px 5px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-el {
+  width: 100px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+.intro-el:hover {
+  cursor: pointer;
+  background-color: #8ecee4;
+}
+
+.intro-content {
+  transform: translateX(500px);
+}
+
+.intro-content-show {
+  margin-top: 10px;
+  transform: translate(0);
+  transition-duration: 2s;
+}

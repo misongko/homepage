@@ -1,0 +1,95 @@
+#wrap {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#subNav > ul > li:nth-of-type(2) > a {
+  border-bottom: 2px solid blue;
+}
+
+.container {
+  margin-bottom: 80px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.container img {
+  width: 250px;
+  margin: 10px;
+}
+
+.container img:hover {
+  box-shadow: 5px 5px 10px 0 grey;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#layer {
+  position: absolute;
+  display: none;
+  left: 0px;
+  width: 2000px;
+  height: 100%;
+  background-color: white;
+  opacity: 0.4;
+}
+
+#popup #locationIcon {
+  position: relative;
+  top: 3px;
+  width: 20px;
+}
+
+/* 팝업창 열기/닫기 */
+#popup {
+  margin: 0px auto;
+  display: none;
+  position: fixed;
+  /* margin: 60px; */
+  left: 20%;
+  top: 10px;
+  width: 80%;
+  margin-left: -10%;
+  height: 95%;
+  z-index: 9999;
+  background: white;
+  border: 1px solid #d1d8dd;
+  box-shadow: 0 0 6px 1px rgb(0 0 0 / 30%);
+  text-align: center;
+  overflow: scroll;
+}
+
+.location-info {
+  margin: 10px 0;
+}
+
+#popup img {
+  position: relative;
+  margin-top: 10px;
+  width: 70%;
+  height: auto;
+}
+
+#popup .popup-image-h {
+  width: 45%;
+}
+
+#close {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 1%;
+  margin-left: 90%;
+  border-style: none;
+}

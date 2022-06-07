@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>travel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/standard.css">
+  <link rel="stylesheet" href="./css/travel.css">   
+</head>
+<body>
+<header id="header">
+  <nav class="mainNav">
+    <a href="index.html">
+      <div id="pageTitle">Heal</div>
+    </a>
+    <div class="mainNav-user-area">
+      <a href="login.html">
+        <div class="mainNav-user">로그인</div>
+      </a>
+      <a href="register.html">
+        <div class="mainNav-user">회원가입</div>
+      </a>
+    </div>
+  </nav>
+
+  <nav id="subNav">
+    <ul>
+      <li><a href="about_me.html">자기소개</a></li>
+      <li><a href="travel.html">여행</a></li>
+      <li><a href="programmer_roadmap.html">개발자 로드맵</a></li>
+    </ul>
+  </nav>    
+</header>
+
+<main id="main">
+  <div id="wrap">
+  <div class="container">
+    <h1 id="ger">독일</h1>
+        <div class="img-wrapper" id="germany">
+            <img src="./images/germany/berliner-dom.jpg" alt="berliner-dom">
+            <div class="location" style="display:none;">Berlin, Germany</div>
+            <img src="./images/germany/wuerzburg-residenz.jpg" alt="wuerzburg-residenz">
+            <div class="location" style="display:none;">Wuerzburg, Germany</div>
+            <img src="./images/germany/zwinger-palace.jpg" alt="zwinger-palace">
+            <div class="location" style="display:none;">Dresden, Germany</div>
+            <img src="./images/germany/harmburg-rathaus.jpg" alt="harmburg-rathaus">
+            <div class="location" style="display:none;">Hamburg, Germany</div>
+            <img src="./images/germany/schloss-heidelberg.jpg" alt="schloss-heidelberg">
+            <div class="location" style="display:none;">Heidelberg, Germany</div>
+        </div>
+      </div>
+
+    <div class="container">  
+        <h1>스위스</h1>
+        <div class="img-wrapper" id="switzerland">
+            <img id="matte" src="./images/switzerland/reffel.jpg" alt="reffel">
+            <div class="location" style="display:none;">Zermatt, Switzerland</div>
+            <img id="matte" src="./images/switzerland/matterhorn.jpg" alt="matterhorn">
+            <div class="location" style="display:none;">Zermatt, Switzerland</div>
+            <img src="./images/switzerland/zermatt-hiking.jpg" alt="zermatt-hiking">
+            <div class="location" style="display:none;">Zermatt, Switzerland</div>
+            <img src="./images/switzerland/grindelwald.jpg" alt="grindelwald">
+            <div class="location" style="display:none;">Grindelwald, Switzerland</div>
+            <img src="./images/switzerland/blausee2.jpg" alt="blausee">
+            <div class="location" style="display:none;">Blausee, Switzerland</div>           
+            <img src="./images/switzerland/blausee1.jpg" alt="blausee">
+            <div class="location" style="display:none;">Blausee, Switzerland</div>
+        </div>
+    </div>
+
+    <div class="container"> 
+        <h1>영국</h1>
+        <div class="img-wrapper" id="england">
+            <img src="./images/england/towerbridge1.jpg" alt="towerbridge">
+            <div class="location" style="display:none;">London, England</div>
+            <img src="./images/england/towerbridge2.jpg" alt="towerbridge">
+            <div class="location" style="display:none;">London, England</div>
+            <img src="./images/england/londoneye.jpg" alt="londoneye">
+            <div class="location" style="display:none;">London, England</div>
+            <img src="./images/england/kensington-garden.jpg" alt="kensington-garden">
+            <div class="location" style="display:none;">London, England</div>
+        </div>
+    </div>
+  </div>
+  </main>
+
+  <footer id="footer" class="public">
+    <div class="footerInner clearfix">
+      <div class="fAddr">
+        <address>(우)06234 강남지원 2관: 서울특별시 강남구 테헤란로10길 9 그랑프리 빌딩 4F, 5F, 7F
+        </address>
+        <div>
+          <span class="contact">Tel. 031-729-4770</span>
+          <span class="contact">Fax. 031-729-4779</span>
+        </div>
+        <cite>Copyright © 1998-2022 KH Information Educational Institute All Right Reserved.</cite>
+      </div>
+    </div>
+  </footer>
+  
+  <a href="#header" id="btnTopScroll" title="상단으로 이동">
+    <img src="./images/button.png" alt="TOP">
+  </a>
+
+  <div id="layer"></div>
+  <div id="popup" >
+    <button type="button" id="close">X</button><br>
+    <div id = "popup_container"></div>  
+  </div>
+  </div>
+
+
+<script src="js/travel.js"></script>
+</body>
+</html>

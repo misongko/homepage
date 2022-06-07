@@ -1,0 +1,163 @@
+#wrap {
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+#registerTitle {
+  text-align: center;
+}
+
+.register-label {
+  display: inline-block;
+  margin: 20px 0 8px 0;
+}
+
+.register-input-container {
+  margin: 10px 0;
+}
+
+#register {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.pwd-show-hide {
+  color: #080009;
+  background: #b9b9b9;
+  position: absolute;
+  border: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 55px;
+  line-height: 33px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.pwd-show-hide:hover {
+  background-color: black;
+  color: white;
+}
+
+.fail {
+  display: block;
+  color: red;
+  margin-top: 7px;
+}
+
+.hide {
+  display: none;
+}
+
+.success {
+  display: block;
+  color: green;
+  margin: 7px 0;
+}
+
+form [type="text"],
+form [type="email"],
+form [type="password"] {
+  background-color: #e8e8e8;
+  border: none;
+  padding: 15px 0px 15px 15px;
+  border-bottom: 1px solid #76766f;
+  width: 98%;
+  height: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+form [type="text"]:focus,
+form [type="email"]:focus,
+form [type="password"]:focus {
+  background-color: white;
+}
+
+#registerPwd1,
+#registerPwd2 {
+  width: 90%;
+  margin-right: 10px;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.register-essential {
+  display: inline-block;
+  overflow: hidden;
+  width: 4px;
+  height: 4px;
+  margin-top: 4px;
+  border-radius: 50%;
+  background-color: red;
+  vertical-align: top;
+}
+
+#optionSelector {
+  position: absolute;
+  width: 12px;
+  top: 17px;
+  right: 1px;
+}
+
+.select-options {
+  border-bottom: 1px solid #76766f;
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+#birthcheck :nth-child(1),
+#birthcheck :nth-child(2) {
+  margin-right: 20px;
+}
+
+.select-options select {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border: none;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+#birthcheck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.agree-check-box {
+  margin: 50px 0;
+}
+
+.registerBtn {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.registerBtnClick {
+  background-color: rgb(181, 227, 255);
+  border-color: rgb(181, 227, 255);
+  border-style: none;
+  font-size: 20px;
+  width: 400px;
+  height: 50px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.registerBtnClick:hover {
+  cursor: pointer;
+  background-color: rgb(35, 106, 240);
+  color: white;
+}
