@@ -4,12 +4,13 @@ const popcl = document.getElementById("popup_container");
 
 [...imgs].forEach(function (img, index) {
   img.addEventListener("click", (e) => {
-    const { src, alt } = img;
+    const { outerHTML, alt } = img;
 
-    const popupSrc = src.indexOf("komisong") + 8;
-    const popupImg = `<img src=".${src.substr(
-      popupSrc
-    )}" alt="${alt}" id="popupImage">`;
+    const startIndex = outerHTML.indexOf("src") + 5;
+    const endIndex = outerHTML.indexOf("jpg") + 3;
+    const popupSrc = outerHTML.substring(startIndex, endIndex);
+
+    const popupImg = `<img src="${popupSrc}" alt="${alt}" id="popupImage">`;
 
     popcl.insertAdjacentHTML("beforeend", popupImg);
 
