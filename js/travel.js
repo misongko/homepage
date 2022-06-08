@@ -5,8 +5,13 @@ const popcl = document.getElementById("popup_container");
 [...imgs].forEach(function (img, index) {
   img.addEventListener("click", (e) => {
     const { src, alt } = img;
-    const html = `<img src=".${src.substr(32)}" alt="${alt}" id="popupImage">`;
-    popcl.insertAdjacentHTML("beforeend", html);
+
+    const popupSrc = src.indexOf("komisong") + 8;
+    const popupImg = `<img src=".${src.substr(
+      popupSrc
+    )}" alt="${alt}" id="popupImage">`;
+
+    popcl.insertAdjacentHTML("beforeend", popupImg);
 
     if (e.target.naturalHeight >= e.target.naturalWidth)
       popupImage.className = "popup-image-h";
